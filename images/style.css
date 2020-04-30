@@ -1,0 +1,29 @@
+.pos{
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+    margin: 15px;
+    transition: transform .2s;
+}
+.pos:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.heading{
+    
+}
+body{
+    background-image: url("https://miro.medium.com/max/9600/0*2Hb-dGkPAZU_vUtW");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+ .heading{
+     text-align: center;
+     font-size: medium;
+     color: blanchedalmond;
+     padding: 20px;
+ }
+ .red{
+     color: red;
+ }
